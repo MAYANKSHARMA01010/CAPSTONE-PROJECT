@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+/* font-family: "Calistoga", serif; */
+@import url('https://fonts.cdnfonts.com/css/porter-sans-block');
+/* font-family: 'Porter Sans Block', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: "Courier Prime", monospace; */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Calistoga", serif;
+}
+
+body {
+    background-color: #E8F4E7;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.navbar {
+    width: 93.333%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    background-color: #E8F4E7;
+    border-bottom: 1px;
+}
+
+.navbar h1 {
+    width: 435px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 42px;
+    color: #1C221B;
+    font-family: 'Porter Sans Block', sans-serif;
+    line-height: 42px;
+    letter-spacing: -4px;
+}
+
+.navbar ul {
+    width: 444px;
+    height: 32px;
+    gap: 32px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar ul li {
+    height: 32px;
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    size: 28px;
+    line-height: 32px;
+    letter-spacing: -1px;
+}
+
+.divmain {
+    width: 1344px;
+    height: 3613px;
+    padding: 48px 0;
+}
+
+.middlediv {
+    width: 1344px;
+    height: 3517px;
+}
+
+.innerdiv{
+    width: 1344px;
+    height: 1,032px;
+    border: 1px;
+    padding: 96px 0;
+    gap: 48px;
+    background-color: #E8F4E7; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#discover {
+    width: 1344px;
+    height: 120px;
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 120px;
+    letter-spacing: -2px;
+    text-align: center;
+    color: #1C221B; 
+}
+
+#InnerDivImg {
+    width: 1344px;
+    height: 672px;
+    border: 1px solid #00000000;
+}
+
+/*Img section*/
+/* img1 is for CSS of the perticular block */
+/* img1bg is for uploading the img through CSS */
+
