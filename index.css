@@ -110,3 +110,7 @@ body {
 /* img1 is for CSS of the perticular block */
 /* img1bg is for uploading the img through CSS */
 
+.img-section {
+    width: 1344px;
+    height: 1333px;
+}
