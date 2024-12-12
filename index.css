@@ -190,6 +190,63 @@ body {
     background-position: center;
 }
 
+.img4 {
+    width: 416px;
+    height: 472px;
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img4bg {
+    width: 416px;
+    height: 416px;
+    border: 1px solid #00000000;
+    background: url("Assets/img4bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.img5 {
+    width: 416px;
+    height: 379px;
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img5bg {
+    width: 416px;
+    height: 323px;
+    border: 1px solid #00000000;
+    background: url("Assets/img5bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.img6 {
+    width: 416px;
+    height: 290px;
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img6bg {
+    width: 416px;
+    height: 234px;
+    border: 1px solid #00000000;
+    background: url("Assets/img6bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
 
 
 .text {
