@@ -72,7 +72,7 @@ body {
 
 .middlediv {
     width: 1344px;
-    height: 3517px;
+    height: 1032px;
 }
 
 .innerdiv{
@@ -113,4 +113,107 @@ body {
 .img-section {
     width: 1344px;
     height: 1333px;
+    border: 1px;
+    padding: 48px 0;
+    gap: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #E8F4E7;
+}
+
+.coloum1,.coloum2,.coloum3 {
+    width: 416px;
+    height: 1237px;
+    gap: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #E8F4E7;
+}
+
+.img1 {
+    width: 416px;
+    height: 379px;
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img1bg {
+    width: 416px;
+    height: 323px;
+    border: 1px solid #00000000;
+    background: url("Assets/img1bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.img2 {
+    width: 416px;
+    height: 290px;
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img2bg {
+    width: 416px;
+    height: 234px;
+    border: 1px solid #00000000;
+    background: url("Assets/img2bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.img3 {
+    width: 416px;
+    height: 472px;
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img3bg {
+    width: 416px;
+    height: 416px;
+    border: 1px solid #00000000;
+    background: url("Assets/img3bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.text {
+    width: 416px;
+    height: 48px;
+    align-items: flex-start;
+}
+
+h2 {
+    width: 416px;
+    height: 24px;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1C221B;
+}
+
+p {
+    width: 416px;
+    height: 24px;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #1C221B;
 }
