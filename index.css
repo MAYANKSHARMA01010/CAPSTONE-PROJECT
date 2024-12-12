@@ -247,7 +247,62 @@ body {
     background-position: center;
 }
 
+.img7 {
+    width: 416px;
+    height: 290px;
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.img7bg {
+    width: 416px;
+    height: 234px;
+    border: 1px solid #00000000;
+    background: url("Assets/img7bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.img8 {
+    width: 416px;
+    height: 472px;
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img8bg {
+    width: 416px;
+    height: 416px;
+    border: 1px solid #00000000;
+    background: url("Assets/img8bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.img9 {
+    width: 416px;
+    height: 379px;
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img9bg {
+    width: 416px;
+    height: 323px;
+    border: 1px solid #00000000;
+    background: url("Assets/img9bg.png");
+    background-size: cover;
+    background-position: center;
+}
 
 .text {
     width: 416px;
