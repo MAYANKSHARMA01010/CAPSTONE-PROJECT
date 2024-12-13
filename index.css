@@ -72,12 +72,12 @@ body {
 
 .middlediv {
     width: 1344px;
-    height: 1032px;
+    height: 3517px;
 }
 
 .innerdiv{
     width: 1344px;
-    height: 1,032px;
+    height: 1032px;
     border: 1px;
     padding: 96px 0;
     gap: 48px;
@@ -310,7 +310,7 @@ body {
     align-items: flex-start;
 }
 
-h2 {
+#Img-h2 {
     width: 416px;
     height: 24px;
     font-family: "Courier Prime", monospace;
@@ -320,7 +320,7 @@ h2 {
     color: #1C221B;
 }
 
-p {
+#Img-Para {
     width: 416px;
     height: 24px;
     font-family: "Courier Prime", monospace;
@@ -328,4 +328,123 @@ p {
     font-size: 17px;
     line-height: 24px;
     color: #1C221B;
+}
+
+.para {
+    width: 1344px;
+    height: 452px;
+    background-color: #E8F4E7;
+    border-bottom: 1px;
+    padding: 96px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#p1 {
+    width: 900px;
+    height: 260px;
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #1C221B;
+}
+
+.outer-contact{
+    width: 1344px;
+    height: 700px;
+    padding-top: 200px;
+    gap: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E8F4E7;
+}
+
+.inner-contact {
+    width: 400px;
+    height: 248px;
+    gap: 32px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-div {
+    width: 400px;
+    height: 32px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-me {
+    width: 400px;
+    height: 32px;
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+
+.number {
+    width: 600px;
+    height: 64px;
+    gap: 12px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.rect {
+    width: 56px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #1C221B;
+    padding: 8px 16px 8px 16px;
+    background-color: #E8F4E7;
+}
+
+.rect-text{
+    width: 12px;
+    height: 24px;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1C221B;
+    justify-content: center;
+}
+
+.submit-box{
+    width: 400px;
+    height: 36px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    background-color: #F13914;
+    justify-items: center
+}
+
+.submit {
+    width: 54px;
+    height: 20px;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FBFFFA;
+}
+
+.skip {
+    width: 36px;
+    height: 20px;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
 }
