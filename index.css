@@ -132,7 +132,7 @@ body {
     height: 1237px;
     gap: 48px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
     background-color: #E8F4E7;
