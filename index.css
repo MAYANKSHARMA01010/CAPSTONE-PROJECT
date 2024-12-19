@@ -16,6 +16,8 @@ body {
 }
 
 #main {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -29,54 +31,55 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 16px 0;
+    align-items: center;
     background-color: #E8F4E7;
     border-bottom: 1px;
 }
 
 .navbar h1 {
-    width: 435px;
+    width: 30%;
     height: 29px;
     font-weight: 400;
     font-size: 42px;
     color: #1C221B;
     font-family: 'Porter Sans Block', sans-serif;
     line-height: 42px;
-    letter-spacing: -4px;
+    letter-spacing: -0.04em;
 }
 
 .navbar ul {
-    width: 444px;
+    width: 35%;
     height: 32px;
     gap: 32px;
-    opacity: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
+    font-family: "Calistoga", serif;
 }
 
 .navbar ul li {
     height: 32px;
     font-family: "Calistoga", serif;
     font-weight: 400;
-    size: 28px;
+    font-size: 28px;
     line-height: 32px;
-    letter-spacing: -1px;
+    letter-spacing: -0.01em;
 }
 
 .divmain {
-    width: 1344px;
+    width: 93.3%;
     height: 3613px;
     padding: 48px 0;
 }
 
 .middlediv {
-    width: 1344px;
+    width: 100%;
     height: 3517px;
 }
 
 .innerdiv{
-    width: 1344px;
+    width: 93.33%;
     height: 1032px;
     border: 1px;
     padding: 96px 0;
@@ -89,20 +92,20 @@ body {
 }
 
 #discover {
-    width: 1344px;
-    height: 120px;
+    width: 93.33%;
+    height: auto;
     font-family: "Calistoga", serif;
     font-weight: 400;
     font-size: 120px;
     line-height: 120px;
-    letter-spacing: -2px;
+    letter-spacing: -0.02em;
     text-align: center;
     color: #1C221B; 
 }
 
 #InnerDivImg {
-    width: 1344px;
-    height: 672px;
+    width: 93.33%;
+    height:auto;
     border: 1px solid #00000000;
 }
 
@@ -331,7 +334,7 @@ body {
 }
 
 .para {
-    width: 1344px;
+    width: 93.3%;
     height: 452px;
     background-color: #E8F4E7;
     border-bottom: 1px;
@@ -354,7 +357,7 @@ body {
 }
 
 .outer-contact{
-    width: 1344px;
+    width:93.3%;
     height: 700px;
     padding-top: 200px;
     gap: 48px;
@@ -415,6 +418,9 @@ body {
     padding: 8px 16px 8px 16px;
     background-color: #E8F4E7;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .rect-text{
@@ -425,7 +431,10 @@ body {
     font-size: 20px;
     line-height: 24px;
     color: #1C221B;
+    /* display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center; */
 }
 
 .submit-box{
@@ -457,7 +466,7 @@ body {
 }
 
 .footer {
-    width: 1344px;
+    width: 93.3%;
     height: 168px;
     border-top: 1px;
     padding-top: 96px;
