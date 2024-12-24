@@ -633,7 +633,7 @@ body {
         width: 30%;
         height: 29px;
         font-weight: 400;
-        font-size: 22px;
+        font-size: 19px;
         color: #1C221B;
         font-family: 'Porter Sans Block', sans-serif;
         line-height: 42px;
@@ -848,7 +848,7 @@ body {
     }
 
     #Img-h2 {
-        width: 50%;
+        width: auto;
         height: auto;
         font-family: "Courier Prime", monospace;
         font-weight: 400;
@@ -858,7 +858,7 @@ body {
     }
 
     #Img-Para {
-        width: 100%;
+        width: auto;
         height: auto;
         font-family: "Courier Prime", monospace;
         font-weight: 400;
